@@ -5,7 +5,7 @@ import streamlit as st
 
 openai.api_type = "azure"
 openai.api_version = "2023-05-15" 
-COMPLETION_MODEL = "basicGPT35"
+COMPLETION_MODEL = "basicGPT35" 
 
 with st.sidebar:
     st.title('🤖💬 Hello, This is Tina Chatbot')
